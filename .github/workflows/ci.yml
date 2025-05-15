@@ -16,7 +16,7 @@ jobs:
     name: Build
     runs-on: ubuntu-24.04
     container:
-        image: docker.io/zephyrprojectrtos/zephyr-build:latest
+        image: docker.io/swedishembedded/build:v0.24.6
     steps:
     - name: Prepare
       run: |
